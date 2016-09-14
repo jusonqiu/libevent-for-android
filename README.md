@@ -10,6 +10,7 @@
 
 # build
 ```
+git clone --recursive https://github.com/jusonqiu/libevent-for-android.git
 make clean && make && make install
 ```
 
