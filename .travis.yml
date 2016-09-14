@@ -20,6 +20,8 @@ deploy:
   provider: releases
   api_key:
     secure: OWHpTvgXsG/hY9llyKB2FVr/ugE55A7ZYp5jzAz3pDVdzqQxbu8HNE5C7NxmHxeI7Db8MdXPZkE/yMOyI+X1EoBb9BydMEiqz3cqopOtB7hYF/lETmlvqneNadI6udB0xyU9fuRIk90OWSJlNr8mQEm9JUiJOgh8cbNb19hb9MnQ6qGhOvKr1tgh5GhNBqggLRa+CwzOTk1dF08EWj6qyHXurXDtTC29E1aKk3BsCc6NKYb2XcjL0ppUMa11sdxOR26m2sFeCtaaKKugrbdOhbwykhcBfK7/19bw6TpvbjHNeYiDJpLoOITnw42JACrmG7evrJm5bVCFaXz4ZUdIrQ1IS/A2+UrUkwLpaVoLqLSsATgR4M6fRdt5VqN4C2E333AocF6a+X8OOI0frFYrYUKtIFQAaCFJDeBBL8636x2cZ0n8C0u4klv8Wf5MLUwxwGrtXLWktSEVrYuT3Ej0X8kyhxBPJTZwXnLs60sOqtmaDBLnVnNHcBxX35i5SY2qI/n2tawtvaI+WjiawXhpO4mKkZ1df7p16jI7Qiin0ftbtaoQcTGOOJ4xi5L6Of5uc3oJ0vSJfsXAU8RZ3znnEH9hgqpXTrUhrIr4FG60kv6rjNJOyKWnqHGGjdksuOjoDwenWFmvshCEwzGP9ZHRSGN7tH+s23hsyxGRQlV2Bvc=
-  file: libevent-android.tar.gz
+  file: libevent-android.tar.gz 
+  skip_cleanup: true
   on:
-    repo: jusonqiu/libevent-for-android
+    tags: true
+
