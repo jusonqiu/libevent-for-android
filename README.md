@@ -1,4 +1,4 @@
-# libevent-for-android
+# libevent-for-android [![Build Status](https://travis-ci.org/jusonqiu/libevent-for-android.svg?branch=master)](https://travis-ci.org/jusonqiu/libevent-for-android)
 
 编译 Android 各个平台的 libevent 静态库.
 
